@@ -1,5 +1,5 @@
 const allowedCors = [
-  'http://lombardzolotoy.ru/',
+  'https://lombardzolotoy.ru/',
   'http://localhost:3000',
 ];
 
