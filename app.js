@@ -32,11 +32,11 @@ app.get('/crash-test', () => {
   }, 0);
 });
 
-app.post('/signin', celebrates.login, login);
+app.post('/api/signin', celebrates.login, login);
 
-app.post('/signup', celebrates.createUser, createUser);
+app.post('/api/signup', celebrates.createUser, createUser);
 
-app.use('/',  require('./routes/index'));
+app.use('/api',  require('./routes/index'));
 
 app.use(errorLogger);
 
